@@ -12,7 +12,7 @@ RewriteBase /104.208.82.11/wp_aocrm/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /proj-uit/wordpress/index.php [L]
+RewriteRule . /104.208.82.11/wp_aocrm/index.php [L]
 </IfModule>
 
 # END WordPress
