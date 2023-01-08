@@ -33,7 +33,7 @@ the_content();
           rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
     <!--    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
-    <link rel="stylesheet" href="/wordpress/wp-content/themes/dotb/banggia.css<?php echo '?v=1.' . mt_rand(); ?>">
+    <link rel="stylesheet" href="/wp_aocrm/wp-content/themes/dotb/banggia.css<?php echo '?v=1.' . mt_rand(); ?>">
 
 </head>
 
