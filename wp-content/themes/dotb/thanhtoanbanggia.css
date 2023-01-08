@@ -1,0 +1,374 @@
+.cac_dv_cong_them {
+
+    height: 400px;
+    overflow-y: scroll;
+}
+
+#checkbox-tieu-de-dich-vu-cong-them {
+    margin-right: 2%;
+}
+
+.row.row-dich-vu-cong-them {
+    border: solid 1px #cccccc;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*.row-tong-tien {*/
+/*    padding: 25px;*/
+/*    margin: 30px 0 30px 0;*/
+/*}*/
+/*.row-bang-gia-mo-rong-chung .col-sm-8 {*/
+/*    background-color: aliceblue;*/
+/*    padding: 25px;*/
+/*    margin: 30px 0 30px 0;*/
+/*    !*border-radius: 10px;*!*/
+/*}*/
+
+/*.row-bang-gia-mo-rong-chung .col-sm-4 {*/
+/*    background-color: aliceblue;*/
+/*    padding: 25px;*/
+/*    margin: 30px 0 30px 0;*/
+/*}*/
+
+.text-tong-tien, .total-price, .btn-baogia {
+    margin: 0 auto;
+}
+
+.text-price {
+    font-size: 30px;
+    color: #2288f9;
+}
+
+.row-total-price {
+    margin: 20px 0 20px 0;
+}
+
+.row.row-goi-da-chon {
+    border: solid 1px #f5f7f9;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F5F7F9;
+    opacity: 1;
+}
+
+.modal-header .close {
+    padding: 5px 10px;
+    margin: -2rem -2rem -1rem auto;
+}
+
+button.close {
+    border: solid 1px #ffffff !important;
+    /*border-radius: 99%;*/
+    height: 34px;
+    background-color: black !important;
+    background-image: linear-gradient(135deg, #1d2327 0%, #1d2327 100%) !important;
+}
+
+button.close:hover {
+    border: solid 1px #ffffff !important;
+    /*border-radius: 99%;*/
+    height: 34px;
+    background-color: white !important;
+    background-image: linear-gradient(135deg, #1d2327 0%, #1d2327 100%) !important;
+    color: #ffffff;
+
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0px !important;
+    background-color: #f4f4f4;
+}
+
+.modal-body {
+    padding-top: 0px !important;
+    background-color: #f4f4f4;
+}
+
+/*#id-content-popup-bao-gia input*/
+/*{*/
+/*    border:none ;*/
+/*}*/
+#id-content-popup-bao-gia input.wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-required.wpcf7-validates-as-tel, #id-content-popup-bao-gia input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email, #id-content-popup-bao-gia input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    margin-bottom: 10px;
+    border: solid 1px #ddd;
+
+}
+
+#id-content-popup-bao-gia textarea.wpcf7-form-control.wpcf7-textarea {
+    border: solid 1px #ddd;
+    background-color: #ffffff !important;
+
+}
+
+#id-content-popup-bao-gia textarea {
+    margin-bottom: 10px;
+}
+
+#id-content-popup-bao-gia input[name="name-input-quantity-user"], input[name="name-thoi_gian_thue_0"], input[name="input-name-title-package_0"], input[name="name-input-tong-tien-da-chon_0"], input[name="total-price-input"] {
+    border: none !important;
+    /*background-color: #ececec !important;*/
+
+}
+
+form[method="post"] {
+    line-height: 1;
+}
+
+.list_item {
+    list-style: square;
+}
+
+/*.acf-input-wrap input[type="number"] {*/
+/*    display: none !important;*/
+/*}*/
+
+.acf-form-submit input[type="submit"] {
+    display: none !important;
+}
+
+/*.acf-label label {*/
+/*    display: none;*/
+/*}*/
+
+.acf-input-wrap {
+    width: 20%;
+}
+
+.acf-input-wrap input {
+    height: 30px;
+    background-color: #ffffff !important;
+    border: solid 1px #d2d2d2;
+    box-shadow: 1px 1px #f5f7f9;
+    width: 120px;
+    text-align: center;
+    outline: none;
+    font-family: "Charlie Text" !important;
+    font-weight: 900;
+    color: rgb(0, 82, 204) !important;
+
+}
+
+.acf-input-wrap input:focus {
+    border: solid 3px #0052CC;
+    background-color: white !important;
+}
+
+.soluong-dvct {
+    display: block !important;
+}
+
+.soluong-dvct span b {
+    float: left;
+    margin-right: 2%;
+}
+
+.soluong-dvct form {
+    float: left;
+}
+
+.row.row-tong-tien {
+    align-items: center;
+    width: 60%;
+    justify-content: end;
+    justify-items: end;
+}
+
+.row-tongtien-gia {
+    display: flex;
+}
+
+.row-tongtien-gia-nut {
+    justify-content: end;
+    background-color: #F5F7F9;
+    padding: 2%;
+    width: 100%;
+    margin-left: 0%;
+
+}
+
+#acf-field_624a97495de54 {
+    display: none !important;
+}
+
+.don_gia_dvct {
+    margin-top: 10px;
+}
+
+label[for="acf-field_626f7d8cb6ab1"] {
+    font-weight: 700;
+
+}
+
+/*.acf-field-626f7d8cb6ab1*/
+/*{*/
+/*    display:flex;*/
+/*}*/
+/*#acf-form .acf-label*/
+/*{*/
+/*    margin-right:2%;*/
+/*    width: 170%;*/
+/*}*/
+label[for="acf-field_6270aa03c8e8a"] {
+    font-weight: 700;
+}
+
+.text-bottom-notice {
+    background-color: #EAE6FF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+    height: 42px;
+}
+
+#id-content-popup-bao-gia textarea.wpcf7-form-control.wpcf7-textarea {
+    border: solid 1px #ddd;
+    background-color: #ffffff !important;
+
+    line-height: 1.5;
+}
+
+.modal-body {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.ten-goi-dv-da-chon b {
+    margin-right: 3%;
+}
+
+.quaylai:hover {
+    color: #2575FC !important;
+}
+
+.text-top {
+    padding: 20px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+div[data-elementor-type="header"] .elementor-section.elementor-section-boxed > .elementor-container
+{
+    max-width: 1175px;
+
+}
+
+.so-luong-user-da-chon span {
+    color: rgb(0, 82, 204) !important;
+    font-family: "Charlie Text" !important;
+    font-weight: 900 !important;
+}
+.thoi-gian-da-chon
+{
+    color: rgb(0, 82, 204) !important;
+    font-family: "Charlie Text" !important;
+    font-weight: 900 !important;
+}
+.elementor-12 .elementor-element.elementor-element-1f65000 .bdt-ep-button-wrapper .bdt-dual-button-a {
+    margin-right: 1px !important;
+    height: fit-content;
+}
+.elementor-12 .elementor-element.elementor-element-1f65000 .bdt-dual-button a
+{
+    padding: 5px 10px 5px 10px;
+}
+#id-content-popup-bao-gia input
+{
+    border: solid 1px #ddd;
+
+}
+#id-content-popup-bao-gia textarea
+{
+    border: solid 1px #ddd;
+height: 100px;
+}
+input[name="input-name-title-package_0"],input[name="name-input-quantity-user"]
+    ,input[name="name-thoi_gian_thue_0"], input[name="name-input-tong-tien-da-chon_0"]
+{
+    background-color: #c5c5c5;
+
+}
+.custom-btn:hover
+{
+color:white !important;
+    border: none !important;
+
+}
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 992px) {
+    body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+
+    .row-bang-gia-mo-rong-chung .col-sm-8 {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .row-bang-gia-mo-rong-chung .col-sm-4 {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .row.row-goi-da-chon {
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        padding-right: 30px;
+    }
+
+    .so-luong-user-da-chon {
+        display: flex;
+
+    }
+
+    .so-luong-user-da-chon span {
+        color: rgb(0, 82, 204) !important;
+        font-family: "Charlie Text" !important;
+        font-weight: 900 !important;
+    }
+
+    .row.row-goi-da-chon .col-4, .row.row-goi-da-chon .col-2, .row.row-goi-da-chon .col-3 {
+        max-width: 100%;
+    }
+
+    .row.row-tong-tien {
+        align-items: center;
+        width: 130%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 1400px) {
+
+
+}
