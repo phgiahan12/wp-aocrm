@@ -18,24 +18,24 @@
  * @package WordPress
  */
 
-@ini_set( 'upload_max_filesize' , '400M' );
-@ini_set( 'post_max_size', '400M');
+@ini_set( 'upload_max_filesize' , '1024M' );
+@ini_set( 'post_max_size', '1024M');
 @ini_set( 'memory_limit', '256M' );
 @ini_set( 'max_execution_time', '300' );
 @ini_set( 'max_input_time', '300' );
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_web' );
+define( 'DB_NAME', 'wp_aocrm' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'ad@uit###' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

@@ -1,15 +1,4 @@
 <?php
-/**
- * @author : Nguyen Xuan Binh
- * Đơn vị : https://haravy.com
- * Link Facebook: https://www.facebook.com/100011700267483
- */
-
-/**
- * @author : Nguyen Xuan Binh
- * Đơn vị : https://haravy.com
- * Link Facebook: https://www.facebook.com/100011700267483
- */
 /*
 Template Name: Thanh toán bảng giá
 */
